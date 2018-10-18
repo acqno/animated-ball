@@ -1,0 +1,82 @@
+/*
+ * Animation css
+ * I don't know CSS. Seriously. 
+ *
+ * Context: As someone who's aspiring to become a front end web developer, I was shocked to realize how little I know css when looking at other people's work. 
+ * 
+ * This project will be used to document my current progress in CSS. Ideally, the more I learn, the more I will continously update this to make it look as aesthetic 
+ as possible. 
+ * Enjoy watching this weird journey to mastering CSS. 
+ */
+
+body {
+    background: #0a1429;
+}
+
+#space {
+    text-align: center;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#ball_1 {
+    animation-name: anime_ball_1;
+}
+
+#ball_2 {
+    animation-name: anime_ball_2;
+    animation-delay: 0.5s;
+}
+
+#ball_3 {
+    animation-name: anime_ball_3;
+    animation-delay: 1s;
+}
+
+#ball_4 {
+    animation-name: anime_ball_4;
+    animation-delay: 1.5s;
+}
+
+#ball_5 {
+    animation-name: anime_ball_5;
+    animation-delay: 2s;
+}
+
+@keyframes anime_ball_1 {
+    0%   {background-color: #ffcc99; left: 0px; top: 0px; }
+    50%  {background-color: #ffcc99; left: 0px; top: 200px; }
+    100% {background-color: #ffcc99; left: 0px; top: 0px; }
+}
+
+@keyframes anime_ball_2 {
+    0%   {background-color: #ffcc99; left: 50px; top: 0px; }
+    50%  {background-color: #ffcc99; left: 50px; top: 200px; }
+    100% {background-color: #ffcc99; left: 50px; top: 0px; }
+}
+
+@keyframes anime_ball_3 {
+    0%   {background-color: #ffcc99; left: 100px; top: 0px; }
+    50%  {background-color: #ffcc99; left: 100px; top: 200px; }
+    100% {background-color: #ffcc99; left: 100px; top: 0px; }
+}
+
+@keyframes anime_ball_4 {
+    0%   {background-color: #ffcc99; left: 150px; top: 0px; }
+    50%  {background-color: #ffcc99; left: 150px; top: 200px; }
+    100% {background-color: #ffcc99; left: 150px; top: 0px; }
+}
+
+@keyframes anime_ball_5 {
+    0%   {background-color: #ffcc99; left: 200px; top: 0px; }
+    50%  {background-color: #ffcc99; left: 200px; top: 200px; }
+    100% {background-color: #ffcc99; left: 200px; top: 0px; }
+}
